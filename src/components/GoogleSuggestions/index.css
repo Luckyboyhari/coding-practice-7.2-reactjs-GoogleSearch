@@ -1,0 +1,110 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-con {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 430px;
+    height: 230px;
+  }
+}
+
+.bg-con1 {
+  width: 300px;
+  border-radius: 13px;
+  margin-top: 24px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-con1 {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 49px;
+  }
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .card1 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.input {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-left: 16px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 22px;
+    margin-left: 8px;
+  }
+}
+
+.suggestion-list {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
